@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cba8c716-86ae-4392-8eed-5f06d2b5d8fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TableBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TableHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reactIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="cba8c716-86ae-4392-8eed-5f06d2b5d8fe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="50" column="71" selection-end-line="64" />
+            <state relative-caret-position="310">
+              <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -185,24 +177,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551941527513</updated>
-      <workItem from="1551941529217" duration="9908000" />
+      <workItem from="1551941529217" duration="10197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9908000" />
+    <option name="totallyTimeSpent" value="10197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="-3" width="980" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.328594" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -288,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="50" column="71" selection-end-line="64" />
+        <state relative-caret-position="310">
+          <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
