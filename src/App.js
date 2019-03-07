@@ -1,28 +1,64 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Table from './Table.js';
+import Form from './Form.js';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    state = {
+        characters: [
+            {
+                name: 'Rajeev',
+                job: 'Ruby Developer'
+            },
+            {
+                name: 'Sachin',
+                job: 'Ruby Developer'
+            },
+            {
+                name: 'Ritesh',
+                job: 'Full-Stack Developer'
+            },
+            {
+                name: 'Chandru',
+                job: 'Ruby Developer'
+            }
+        ]
+    };
+
+
+    removeCharacter = index => {
+        const {characters} = this.state;
+
+        this.setState({
+            characters: characters.filter((character, i) => {
+                return i !== index;
+            })
+        });
+    };
+
+    handleSubmit = character => {
+        this.setState({characters: [...this.state.characters, character]});
+    }
+
+    render() {
+
+        const {characters} = this.state;
+
+        return (
+            <div className="container">
+                <h1>Add a character with a name and a job to the table.</h1>
+                <Table
+                    characterData={characters}
+                    removeCharacter={this.removeCharacter}
+                />
+                <Form handleSubmit={this.handleSubmit}/>
+
+            </div>
+        );
+
+    }
 }
 
 export default App;
